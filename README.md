@@ -1,2 +1,1 @@
-fish-speech
-克隆声音
+备用
