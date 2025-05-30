@@ -1,0 +1,23 @@
+模型 RandomForest - 准确率: 0.5463
+模型 RandomForest - 加权F1-score: 0.5494
+
+分类报告:
+                     precision    recall  f1-score   support
+
+         belly_pain       0.72      0.68      0.70       117
+         discomfort       0.53      0.51      0.52        97
+             hungry       0.38      0.41      0.40       129
+psychological_needs       0.94      0.89      0.91        18
+              tired       0.54      0.55      0.54        82
+
+           accuracy                           0.55       443
+          macro avg       0.62      0.61      0.61       443
+       weighted avg       0.55      0.55      0.55       443
+
+混淆矩阵:
+                     belly_pain  discomfort  hungry  psychological_needs  tired
+belly_pain                   79          12      26                    0      0
+discomfort                    9          49      31                    0      8
+hungry                       21          26      53                    0     29
+psychological_needs           0           0       0                   16      2
+tired                         1           6      29                    1     45

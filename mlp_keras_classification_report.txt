@@ -1,0 +1,23 @@
+模型 MLP_Keras - 准确率: 0.2370
+模型 MLP_Keras - 加权F1-score: 0.1056
+
+分类报告:
+                     precision    recall  f1-score   support
+
+         belly_pain       0.00      0.00      0.00       117
+         discomfort       0.23      1.00      0.37        97
+             hungry       0.67      0.02      0.03       129
+psychological_needs       0.46      0.33      0.39        18
+              tired       0.00      0.00      0.00        82
+
+           accuracy                           0.24       443
+          macro avg       0.27      0.27      0.16       443
+       weighted avg       0.26      0.24      0.11       443
+
+混淆矩阵:
+                     belly_pain  discomfort  hungry  psychological_needs  tired
+belly_pain                    0         113       1                    3      0
+discomfort                    0          97       0                    0      0
+hungry                        0         123       2                    4      0
+psychological_needs           0          12       0                    6      0
+tired                         0          82       0                    0      0

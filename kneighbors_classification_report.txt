@@ -1,0 +1,23 @@
+模型 KNeighbors - 准确率: 0.4582
+模型 KNeighbors - 加权F1-score: 0.4505
+
+分类报告:
+                     precision    recall  f1-score   support
+
+         belly_pain       0.61      0.62      0.62       117
+         discomfort       0.39      0.46      0.42        97
+             hungry       0.29      0.22      0.25       129
+psychological_needs       0.76      0.89      0.82        18
+              tired       0.47      0.49      0.48        82
+
+           accuracy                           0.46       443
+          macro avg       0.50      0.54      0.52       443
+       weighted avg       0.45      0.46      0.45       443
+
+混淆矩阵:
+                     belly_pain  discomfort  hungry  psychological_needs  tired
+belly_pain                   73          19      21                    0      4
+discomfort                   15          45      29                    2      6
+hungry                       21          43      29                    1     35
+psychological_needs           1           0       0                   16      1
+tired                        10           9      21                    2     40

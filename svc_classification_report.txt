@@ -1,0 +1,23 @@
+模型 SVC - 准确率: 0.3928
+模型 SVC - 加权F1-score: 0.3939
+
+分类报告:
+                     precision    recall  f1-score   support
+
+         belly_pain       0.47      0.46      0.46       117
+         discomfort       0.40      0.41      0.41        97
+             hungry       0.40      0.33      0.36       129
+psychological_needs       0.44      0.39      0.41        18
+              tired       0.29      0.37      0.32        82
+
+           accuracy                           0.39       443
+          macro avg       0.40      0.39      0.39       443
+       weighted avg       0.40      0.39      0.39       443
+
+混淆矩阵:
+                     belly_pain  discomfort  hungry  psychological_needs  tired
+belly_pain                   54          19      24                    3     17
+discomfort                   14          40      21                    0     22
+hungry                       29          21      43                    2     34
+psychological_needs           5           4       1                    7      1
+tired                        14          16      18                    4     30

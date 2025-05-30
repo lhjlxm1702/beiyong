@@ -1,0 +1,23 @@
+模型 XGBoost - 准确率: 0.5282
+模型 XGBoost - 加权F1-score: 0.5296
+
+分类报告:
+                     precision    recall  f1-score   support
+
+         belly_pain       0.72      0.69      0.70       117
+         discomfort       0.48      0.44      0.46        97
+             hungry       0.36      0.38      0.37       129
+psychological_needs       0.89      0.89      0.89        18
+              tired       0.52      0.55      0.53        82
+
+           accuracy                           0.53       443
+          macro avg       0.59      0.59      0.59       443
+       weighted avg       0.53      0.53      0.53       443
+
+混淆矩阵:
+                     belly_pain  discomfort  hungry  psychological_needs  tired
+belly_pain                   81          13      23                    0      0
+discomfort                   10          43      34                    1      9
+hungry                       21          27      49                    0     32
+psychological_needs           0           0       1                   16      1
+tired                         1           6      29                    1     45
